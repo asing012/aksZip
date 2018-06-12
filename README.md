@@ -2,6 +2,7 @@
 Crack zip file 
 
 Requirements:
+
 (1) Make sure you have python2 installed in your system.
 
 How to run:
@@ -10,9 +11,9 @@ How to run:
 
 (2) Once you run the program it will ask you two things:
 
-  (a) Enter the name of the zip file to crack (evil.zip)
+    (a) Enter the name of the zip file to crack (evil.zip)
   
-  (b) Enter the name of the dictionary file to use (dictionary.txt)
+    (b) Enter the name of the dictionary file to use (dictionary.txt)
   
 (3) It will print "password found" when it finds the password and it will also extract the zip file in the same directory.
 
