@@ -18,7 +18,8 @@ def decryptZip(zipName,dictWord): #decrypt encrypted zip file
     try:
         zipFile = zipfile.ZipFile(zipName)
         zipFile.extractall(pwd=dictWord)
-        print(" \t\t "+dictWord+" FOUND")
+        print("[-] "+"Password Found: "+dictWord)
+        return 
     except:
         return
 
